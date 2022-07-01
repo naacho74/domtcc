@@ -41,13 +41,29 @@ let nombre = "juan"
 let titulo = document.getElementById('titulo')
 console.log(titulo)
 let imagen = document.getElementById('foto')
+let titulo2=document.getElementById('titulo2')
+let boton=document.getElementById('boton')
 // 2. identifico que quiero controlar
-// 2.1 cambiando el texto
-titulo.textContent="CHAO"
-// 2.2 cambiando la fuente (SRC)
-imagen.src="https://placeimg.com/640/480/nature"
 
-let AdidasForum84Low={
+// 3 MODIFICANDO ESTILOS
+//3.1 AGG UNA CLASE
+titulo.classList.add('text-danger','titul')
+//3.2 quitando una clase
+titulo2.classList.remove('text-info')
+titulo2.classList.add('text-danger')
+//4. ESCUCHANDO EVENTOS
+boton.addEventListener('click',function(){   // aqui en los parametros se llamo una funcion anonima"que no tienen nombre"
+    // 2.1 cambiando el texto
+    titulo.textContent="CHAO"
+    //  alert('hola')
+    // 2.2 cambiando la fuente (SRC)
+    imagen.src="https://placeimg.com/640/480/nature"
+     console.log('esta es la funcion anonima, se activa con el boton')    
+    })     
+
+ 
+    
+    AdidasForum84Low={
     nombre:'Adidas Forum 84 Low ADV',
     precio: 499990,
     cantidad:3,
