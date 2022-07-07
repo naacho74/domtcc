@@ -57,7 +57,7 @@ boton.addEventListener('click',function(){   // aqui en los parametros se llamo 
     titulo.textContent="CHAO"
     //  alert('hola')
     // 2.2 cambiando la fuente (SRC)
-    imagen.src="https://placeimg.com/640/480/nature"
+    imagen.src="https://firebasestorage.googleapis.com/v0/b/livtiendatcc.appspot.com/o/Forum84.png?alt=media&token=52c7ae41-64f1-4e00-80b5-4f7cd6855e15"
      console.log('esta es la funcion anonima, se activa con el boton')    
     })     
 
