@@ -21,7 +21,7 @@ contenedor.addEventListener("click", function (evento) {
 //ALMACENAR EN EL LOCAL STORAGE EL PRODUCTO SELECCIONADO
     localStorage.setItem('infoProducto',JSON.stringify(producto))
     console.log(localStorage.getItem('infoProducto'))
-// abro nuea ventana
-window.location.href='./src/views/ampliarinfo.html'
+// abro nueva ventana
+window.location.href='./ampliarinfo.html'
 
 });

@@ -1,3 +1,7 @@
+// popularidad = de 1 a 5 
+
+
+
 export let productosBD = [
     {
       nombre: "Adidas Forum 84 Low ADV", //Forum84
