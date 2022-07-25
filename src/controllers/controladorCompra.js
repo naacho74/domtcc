@@ -27,10 +27,15 @@ descripcion.textContent=producto.descripcion
 
 // agrego un nuevo atributo(cantidad) al objeto atributo
 let botonAgregar=document.getElementById('agregar')
-
-
+//se agrega producto al carrito
 botonAgregar.addEventListener('click',function(evento){
-let cantidad=document.getElementById('cantidad').value
+   let alerta=document.getElementById('alerta')
+   
+   setTimeout(function(){
+   alerta.classList.remove('invisible')
+   
+   },3000)
+   let cantidad=document.getElementById('cantidad').value
 producto.cantidad=cantidad
 //agregando un producto al carrito de compras
 carrito.push(producto)
