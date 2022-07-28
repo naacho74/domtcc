@@ -1,8 +1,41 @@
-.fondo {
-   
-}
-/*.fuente{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(6,87,173,1) 81%, rgba(3,153,216,1) 91%, rgba(2,173,229,1) 94%, rgba(2,173,229,1) 94%, rgba(2,173,229,0.7175245098039216) 94%, rgba(0,212,255,1) 100%);
+
+main{
     font-family: 'Yanone Kaffeesatz', sans-serif;
-} */
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+}
+
+.fuente{
+    
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+.footer{
+    text-align: center;
+}
+.redes{
+display: flex;    
+justify-content: space-evenly;
+}
+.siguenos{
+    font-size: 15px;
+    color: white;
+}
+
+.bi-facebook{
+    font-size: 30px;
+    color: rgb(40, 101, 181);
+}
+
+.bi-instagram{
+    font-size: 30px;
+    color: lightsalmon;
+}
+
+.bi-youtube{
+    font-size: 30px;
+    color: red;
+}
