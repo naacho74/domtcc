@@ -36,12 +36,18 @@ botonAgregar.addEventListener('click',function(evento){
    
    },3000)
    let cantidad=document.getElementById('cantidad').value
+   
 producto.cantidad=cantidad
+
+//let contadorProducto= 0
+//contadorProducto= producto.cantidad+contadorProducto
 //agregando un producto al carrito de compras
 carrito.push(producto)
 
 // almaceno el carrito e el localstorage
 localStorage.setItem('carrito',JSON.stringify(carrito))
+//localStorage.setItem('contadorCarrito',JSON.stringify(contadorCarrito))
+//document.getElementById('sumaProductos').innerHTML = contadorProducto
 
 
 

@@ -15,7 +15,7 @@ fila.classList.add('row','my-3')
 
 let foto=document.createElement('img')
 foto.classList.add('img-fluid' ,'w-100')
-foto.src='../../assets/img/carr vacio.jpg'
+foto.src='../../assets/img/carrovacio.jpg'
 let mensaje=document.createElement('h3')
 mensaje.classList.add('text-center')
 mensaje.textContent='Carrito Vacio'
